@@ -4,7 +4,9 @@ date: "2019-12-31"
 author: "Brian Bartholomew"
 ---
 
-As the year comes to an end take a pause to reflect & set goals
+As the year comes to an end take a pause to reflect & set goals.
+
+![New Years](./newyearsimage.jpeg)
 
 The start of the New Year is when many of set our goals for the upcoming year. However, often we do this without reflecting on what we accomplished and where we failed during the year that's ending.
 
