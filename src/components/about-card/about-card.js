@@ -1,8 +1,10 @@
 import React from 'react'
 
+import aboutCardStyles from './about-card.module.scss'
+
 const AboutCard = props => {
     return (
-        <div>
+        <div className={aboutCardStyles.job}>
             <h3>{props.companyName}</h3>
             <h4>{props.jobTitle}</h4>
             <ul>

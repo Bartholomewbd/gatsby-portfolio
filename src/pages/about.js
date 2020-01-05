@@ -4,6 +4,7 @@ import Layout from '../components/layout/layout'
 
 import aboutStyles from '../styles/about.module.scss'
 import AboutCard from '../components/about-card/about-card'
+import portrait from '../img/portraitsm.png'
 
 const AboutPage = () => {
     return (
@@ -11,12 +12,15 @@ const AboutPage = () => {
             <Layout>
             <h1>About <span className="text-secondary">Me</span></h1>
             <div className={aboutStyles.aboutInfo}>
-                
-                <h3>Bio</h3>
-                <p>I am a full-stack developer that focuses on creating amazing websites and applications.  My specialtiy is Javascript.  I enjoy learning new skills and teaching them to others.  Take a look at <Link to="/projects">my work </Link> and 
-                    <Link to="/contact"> get in touch</Link> if you want to work together.
-                </p>
+                <img src={portrait} alt="Brian Bartholomew Portrait" className={aboutStyles.bioImage} />
+                <div className={aboutStyles.bio}>
+                    <h3 className={aboutStyles.bioHeader}>Bio</h3>
+                    <p>I am a full-stack developer that focuses on creating amazing websites and applications.  My specialtiy is Javascript.  I enjoy learning new skills and teaching them to others.  Take a look at <Link to="/projects">my work </Link> and 
+                        <Link to="/contact"> get in touch</Link> if you want to work together.
+                    </p>
+                </div>
                 <AboutCard 
+                className={aboutStyles.job1}
                 companyName="Takeout7" 
                 jobTitle="Software Engineer" 
                 responsibilities={[
@@ -26,6 +30,7 @@ const AboutPage = () => {
                 ]} 
                 />
                 <AboutCard
+                className={aboutStyles.job2}
                 companyName="Trilogy Education"
                 jobTitle="Substitute TA UConn and Remote Tutor"
                 responsibilities={[
@@ -37,6 +42,7 @@ const AboutPage = () => {
                 ]}
                 />
                 <AboutCard 
+                className={aboutStyles.job3}
                 companyName="Altice USA"
                 jobTitle="NOC Level 3 Voice Technician"
                 responsibilities={[
@@ -46,6 +52,7 @@ const AboutPage = () => {
                 ]} 
                 />
                 <AboutCard
+                className={aboutStyles.job4}
                 companyName="Happy Hands PREP"
                 jobTitle="Technical Consultant"
                 responsibilities={[
