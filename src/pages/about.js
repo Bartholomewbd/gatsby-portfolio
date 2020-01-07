@@ -10,7 +10,7 @@ const AboutPage = () => {
     return (
         <div className={aboutStyles.about}>
             <Layout>
-            <h1>About <span className="text-secondary">Me</span></h1>
+            <h1 className="lg-heading">About <span className="text-secondary">Me</span></h1>
             <div className={aboutStyles.aboutInfo}>
                 <img src={portrait} alt="Brian Bartholomew Portrait" className={aboutStyles.bioImage} />
                 <div className={aboutStyles.bio}>

@@ -1,3 +1,5 @@
+@import "config";
+
 .project{
 
     h1 {
@@ -9,4 +11,25 @@
     display: grid;
     grid-gap: 0.7rem;
     grid-template-columns: repeat(4, 1fr);
+}
+
+@include mediaLg {
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@include mediaMd {
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@include mediaSm {
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

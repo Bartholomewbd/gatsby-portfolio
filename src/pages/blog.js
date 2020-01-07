@@ -31,7 +31,7 @@ const BlogPage = () => {
         <div>
             <Layout>
               <div className={blogStyles.blog}> 
-                <h1>Blog</h1>
+                <h1 className="lg-heading">My <span className="text-secondary">Blog</span></h1>
                 <ul className={blogStyles.posts}>
                     {data.allMarkdownRemark.edges.map(post => {
                         return (

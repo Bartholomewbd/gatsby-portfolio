@@ -13,7 +13,7 @@ const Projects = () => {
     return (
         <Layout>
             <div className={projectStyles.project}>
-                <h1>My <span className="text-secondary">Projects</span></h1>
+                <h1 className="lg-heading">My <span className="text-secondary">Projects</span></h1>
                 <div className={projectStyles.projects}>
                     <ProjectCard projectImage={happyHandsImage} liveUrl="https://happyhandsprep.com" githubUrl="https://github.com/Bartholomewbd/hhp" />
                     <ProjectCard projectImage={backgroundGeneratorImage} liveUrl="https://bartholomewbd.github.io/bggradient/" githubUrl="https://github.com/Bartholomewbd/bggradient" />
