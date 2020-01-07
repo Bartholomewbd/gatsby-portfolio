@@ -1,0 +1,12 @@
+.project{
+
+    h1 {
+        margin: 5vh 0;
+    }
+}
+
+.projects{
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: repeat(4, 1fr);
+}
