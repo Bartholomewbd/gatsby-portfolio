@@ -31,8 +31,8 @@ const Blog = props => {
         <Layout>
           <div className={blogStyles.blog}>
             <h1 className="text-secondary">{props.data.markdownRemark.frontmatter.title}</h1>
-            <p className="text-secondary">{props.data.markdownRemark.frontmatter.date}</p>
-            <p className="text-secondary">{props.data.markdownRemark.frontmatter.author}</p>
+            <p className={`${blogStyles.date} text-secondary`}>{props.data.markdownRemark.frontmatter.date}</p>
+            <p className={`${blogStyles.author} text-secondary`}>{props.data.markdownRemark.frontmatter.author}</p>
             <div dangerouslySetInnerHTML={{__html:props.data.markdownRemark.html}}></div>
           </div>
         </Layout>
