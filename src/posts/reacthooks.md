@@ -55,7 +55,7 @@ export default MyName;
 ```
 I personally really like the hooks implementation because it removes a lot of code by not requiring a constructor at all. It also removes the need to use this and rebind it to handle correctly.
 
-Hooks fits into React because it allows us to right declarative code that is code that tells react what we want to do rather than how to do it. And react handles the updates to the render.  The book I am reading also has an exercise as to recreating the useState hook to grasp a deeper understanding and my repo for it will be found here. [https://github.com/Bartholomewbd/react-hooks](https://github.com/Bartholomewbd/react-hooks).  This will also include any other resources I find cool and code snippets relating to react hooks I want to keep.
+Hooks fits into React because it allows us to right declarative code that is code that tells react what we want to do rather than how to do it. React handles the updates to the render.  The book I am reading also has an exercise as to recreating the useState hook to grasp a deeper understanding and my repo for it will be found here. [https://github.com/Bartholomewbd/react-hooks](https://github.com/Bartholomewbd/react-hooks).  This will also include any other resources I find cool and code snippets relating to react hooks I want to keep.
 
 Above we went over one of the most commonly used hooks in react.  Some of the others include useEffect and UseContext. 
 
@@ -77,7 +77,7 @@ async componentDidUpdate(previousProps) {
 }
 ```
 
-Can be condensed into :
+Can be changed into :
 
 ```js
 const fetchUsers = async () => {
